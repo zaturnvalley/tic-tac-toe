@@ -1,5 +1,5 @@
 body{
-	background-image: url('/img/background.jpg');
+	background-image: url('../img/background.jpg');
 }
 h1 {
   color: black;
@@ -50,13 +50,13 @@ input{
 .dog{
 	height:200px;
 	width:200px;
-	background-image: url('/../img/dog.jpg');
+	background-image: url('../img/dog.jpg');
 	background-size: cover;
 }
 .cat{
 	height:200px;
 	width:200px;
-	background-image: url('/../img/cat.jpg');
+	background-image: url('../img/cat.jpg');
 	background-size: cover;
 }
 h6{
