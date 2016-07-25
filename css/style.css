@@ -1,3 +1,68 @@
+body{
+	background-image: url('/img/background.jpg');
+}
 h1 {
-  color: purple;
+  color: black;
+  text-align:center;
+  font-family:"Futura";
+  font-size:80px;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 420px;
+  background-color: white;
+}
+#board{
+	text-align:center;
+}
+.square{
+	background-color:#A91E22;
+	height:200px;
+	width:200px;
+/*	background-color: grey;*/
+	border: 1px solid black;
+	display:inline-block;
+}
+.clearfix{
+	clear:both;
+}
+input{
+	text-align:center;
+	font-size:28px;
+	background-color: white;
+	font-family: "Futura";
+}
+#clearButton{
+	text-align:center;
+	width:100%;
+}
+#result {
+  color: black;
+  text-align:center;
+  font-family:"Futura";
+  font-size:30px;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 100%;
+  background-color: white;
+  height:40px;
+
+}
+.dog{
+	height:200px;
+	width:200px;
+	background-image: url('/../img/dog.jpg');
+	background-size: cover;
+}
+.cat{
+	height:200px;
+	width:200px;
+	background-image: url('/../img/cat.jpg');
+	background-size: cover;
+}
+h6{
+	color: black;
+	text-align:center;
+	font-family:"Futura";
+	font-size:10px;
+	margin: 0 auto;
 }
