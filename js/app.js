@@ -45,7 +45,7 @@ function fillSquareChangePlayer(param1){
 							document.getElementById('result').style.color = 'white';
 							document.getElementById('result').style.backgroundColor = 'red';
 						}
-						else if(document.getElementById('sq3').classList.contains('dog') && document.getElementById('sq3').classList.contains('dog') &&  document.getElementById('sq6').classList.contains('dog')){
+						else if(document.getElementById('sq3').classList.contains('dog') && document.getElementById('sq6').classList.contains('dog') &&  document.getElementById('sq9').classList.contains('dog')){
 							document.getElementById('result').innerHTML = 'Dog Wins!';
 							document.getElementById('result').style.color = 'white';
 							document.getElementById('result').style.backgroundColor = 'red';
@@ -89,7 +89,7 @@ function fillSquareChangePlayer(param1){
 							document.getElementById('result').style.color = 'white';
 							document.getElementById('result').style.backgroundColor = 'red';
 						}
-						else if(document.getElementById('sq3').classList.contains('cat') && document.getElementById('sq3').classList.contains('cat') &&  document.getElementById('sq6').classList.contains('cat')){
+						else if(document.getElementById('sq3').classList.contains('cat') && document.getElementById('sq6').classList.contains('cat') &&  document.getElementById('sq9').classList.contains('cat')){
 							document.getElementById('result').innerHTML = 'Cat Wins!';
 							document.getElementById('result').style.color = 'white';
 							document.getElementById('result').style.backgroundColor = 'red';
@@ -104,6 +104,8 @@ function resetBoard(){
 		clearMe[clearer].classList.remove('dog');
 		clearMe[clearer].classList.remove('cat');
 		document.getElementById('result').innerHTML = "Result";
+		document.getElementById('result').style.backgroundColor = "white";
+		document.getElementById('result').style.color = "black";
 	}
 }
 
@@ -113,7 +115,10 @@ function artBrain(){
 	var rando = (Math.floor(Math.random()*9)+1);
 	return 'sq' + rando;
 }
+/*
+AI Notes:
 
+*/
 // function artChoice(dig){
 // 	if (document.getElementById(dig).classList.contains('dog'){
 // 		return;
