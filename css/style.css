@@ -66,3 +66,57 @@ h6{
 	font-size:10px;
 	margin: 0 auto;
 }
+@media (max-width: 620px){
+  h1{
+    width: 370px;
+    font-size:60px;    
+  }
+  .square{
+  height:150px;
+  width:150px;
+  }
+   .dog{
+  height:150px;
+  width:150px;
+  }
+   .cat{
+  height:150px;
+  width:150px;
+  }  
+}
+@media (max-width: 500px){
+  h1{
+    width: 320px;
+    font-size:40px;     
+  }  
+  .square{
+  height:100px;
+  width:100px;
+  }
+   .dog{
+  height:100px;
+  width:100px;
+  }
+   .cat{
+  height:100px;
+  width:100px;
+  }  
+}
+@media (max-width: 400px){
+  h1{
+    font-size:30px;     
+    width: 300px;
+  }  
+  .square{
+  height:90px;
+  width:90px;
+  }
+   .dog{
+  height:90px;
+  width:90px;
+  }
+   .cat{
+  height:90px;
+  width:90px;
+  }  
+}
